@@ -1,0 +1,35 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication1.WebForm1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ATSM|Artan Tajhiz Sanat Mandegar</title>
+    <style>
+        .pheader{
+            background-color:black;
+            height: 135px;
+        }
+        .BUT1{
+            font-family:Cambria;
+            margin-left: 25px;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" >
+    <div class="pheader">
+        <asp:ImageButton ID="ImageButton1" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ClientIDMode="Inherit" ImageAlign="AbsMiddle" Width="100" ImageUrl="https://github.com/3dadmin/firstone/blob/master/site_Logo.png?raw=true" Height="100" OnClientClick="alert('hi')" />
+        <asp:Button ID="PRODUCTS" runat="server" Text="PRODUCTS" Width="100px" Height="100px" BackColor="Black" ForeColor="White" BorderStyle="None" CssClass="BUT1" />
+        <asp:Button ID="SERVICES" runat="server" Text="SERVICES" Width="100px" Height="100px" BackColor="Black" ForeColor="White" BorderStyle="None" CssClass="BUT1" />
+        <asp:Button ID="ABOUTUS" runat="server" Text="ABOUTUS" Width="100px" Height="100px" BackColor="Black" ForeColor="White" BorderStyle="None" CssClass="BUT1"/>
+        <asp:Button ID="CONTACTS" runat="server" Text="CONTACTS" Width="100px" Height="100px" BackColor="Black" ForeColor="White" BorderStyle="None" CssClass="BUT1"/>
+        <asp:Button ID="NEWS" runat="server" Text="NEWS" Width="100px" Height="100px" BackColor="Black" ForeColor="White" BorderStyle="None" CssClass="BUT1" />
+    </div>
+        
+  
+        
+    </form>
+</body>
+</html>
